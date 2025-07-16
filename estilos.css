@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: rgb(148, 167, 159);
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    color: #131259;
+    padding-top: 10px;
+}
+
+.container{
+   max-width: 1000px;
+} 
+
+.box{
+    width:50px;
+    padding-left: 150px;
+    border: 2px solid #fff;
+    min-height: 50px;
+    font-size: 2rem;
+}
+
+.juego .contenedor-opcion .card a{
+   padding: 10px 10px 0 3px ;
+}
+
+/* Footer */
+footer{
+   background-color:rgb(227, 229, 213);
+   padding: 1rem 0;
+   position: relative;
+   width: 100%;
+}
+
+footer .redes{
+   margin-bottom: 20px;
+}
+footer .redes{
+   display: inline-block;  
+   text-decoration: none;
+   width: 200px;  
+   height: 15px;
+   padding: 15px 0 0 0;
+   line-height: 30px;
+   margin: 10px 0 30px 50px;  
+   font-size: 20px; 
+   transition: .2s;   
+}
+footer .redes a{
+   color:  #081c6c;
+   padding:5px;
+}
+
+footer .redes a:hover{
+   color: #c8690ada;
+}
+
+footer .info{
+   color: #000;
+   float: right;
+   margin-right: 20px;
+   font-size: 12px;
+}
+
+footer .info ul{
+    margin-top: 5px;
+}
+
+footer .info ul li{
+   list-style: none;
+   padding: 2px;
+}
+footer .info i{
+    text-decoration: none;
+    color: #081c6c;
+ }
+
+footer .info a{
+   text-decoration: none;
+   color: #000;
+}
+footer .info a:hover{
+    color: #c8690ada;
+}
+
+footer .arriba{
+   display: block;
+   width: 30px;
+   height: 30px;
+   background-color:  #c8690ada;
+   text-align: center;
+   color: #fff;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   top: -12%;
+   border-radius: 50%;
+   line-height: 30px;
+   font-size: 15px;
+}
